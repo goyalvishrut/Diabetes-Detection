@@ -13,11 +13,11 @@ st.write("""
 """)
 
 # open and display an image
-image = Image.open('C:/Users/Vishrut Goyal/Desktop/webapp/diabetes/download.jfif')
+image = Image.open('download.jfif')
 st.image(image, caption="ML", use_column_width=True)
 
 # Get the data
-df = pd.read_csv('C:/Users/Vishrut Goyal/Desktop/webapp/diabetes/diabetes.csv')
+df = pd.read_csv('diabetes.csv')
 
 #set a subheader
 st.subheader('Data Information')
